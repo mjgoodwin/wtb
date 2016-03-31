@@ -10,7 +10,7 @@ andreas:   { name: "Andreas Prinz",    sex: "Male",   soo: "10056660",
              }
            },
 callum: { name: "Callum Denault",  sex: "Male", soo: "1045214",
-             events: [ "100 IM", "50 Breast", "100 Free", "25 Back", "25 Fly" ],
+             events: [ "100 IM", "25 Breast", "50 Free", "50 Back" ],
              pbs: {"100 IM" => 115, "25 Breast" => 30, "50 Free" => 42, "50 Back" => 50, "100 Free" => 95, "50 Breast" => 47, "25 Fly" => 20, "25 Back" => 22 },
              dob: "28/03/1999",
              results: {
@@ -108,7 +108,7 @@ james:     { name: "James Brown",      sex: "Male",   soo: "10095198",
              }
            },
 jeffc:     { name: "Jeffrey Campbell", sex: "Male",   soo: "10043196",
-             events: [ "100 IM", "50 Free", "25 Fly", "50 Back", "25 Back" ],
+             events: [ "100 IM", "50 Free", "25 Fly", "50 Back" ],
              pbs: { "100 Free" => 98, "50 Back" => 51, "25 Breast" => 29, "50 Fly" => 55, "25 Free" => 16, "50 Breast" => 70, "100 IM" => 140, "25 Back" => 23, "50 Free" => 35, "25 Fly" => 20 },
              dob: "17/05/1984",
              results: {
@@ -258,7 +258,7 @@ tasia:     { name: "Tasia Mazomenos",  sex: "Female", soo: "10053230",
              }
            },
 tomas:     { name: "Tomas Carlino",    sex: "Male",   soo: "10139476",
-             events: [ "50 Free", "25 Free", "25 Fly", "50 Back", "25 Back" ],
+             events: [ "50 Free", "25 Free", "25 Fly", "50 Back" ],
              pbs: { "50 Free" => 58, "25 Back" => 29, "25 Breast" => 39, "25 Fly" => 35, "50 Back" => 65, "25 Free" => 22 },
              dob: "11/10/1996",
              results: {
@@ -307,6 +307,10 @@ meets = {
     events: [ "200 Free", "25 Free", "100 IM", "100 Breast", "25 Fly", "25 Breast", "50 Fly", "25 Back", "100 Back", "50 Breast", "50 Free", "100 Free", "50 Back" ],
     swimmers: [ :callum, :cathy, :duncan, :hilda, :james, :jeffc, :jessica, :lindsay, :marco, :marianna, :michaelr, :pete, :rick, :sarah, :steven, :tasia, :tomas ]
   },
+  "Variety Village Spring 2016" => {
+    events: [ "200 Free", "25 Free", "100 IM", "100 Breast", "25 Fly", "25 Breast", "50 Fly", "25 Back", "100 Back", "50 Breast", "50 Free", "100 Free", "50 Back" ],
+    swimmers: [ :callum, :cassandra, :cathy, :dj, :duncan, :gord, :hilda, :james, :jeffc, :jeffv, :jessica, :lindsay, :marco, :marianna, :michaelh, :michaelr, :pete, :rick, :sarah, :steven, :tasia, :tomas, :vishal ]
+  },
 }
 
 require 'date'
@@ -330,7 +334,7 @@ require 'date'
 #   end
 # end
 
-MEET = "Sarah Carman Spring 2016"
+MEET = "Variety Village Spring 2016"
 meet_events = meets[MEET][:events]
 meet_swimmers = meets[MEET][:swimmers]
 
