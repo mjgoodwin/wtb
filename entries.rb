@@ -10,7 +10,7 @@ andreas:   { name: "Andreas Prinz",    sex: "Male",   soo: "10056660",
              }
            },
 callum: { name: "Callum Denault",  sex: "Male", soo: "1045214",
-             events: [ "100 IM", "25 Breast", "50 Free", "50 Back" ],
+             events: [ "25 Fly", "25 Breast", "50 Free", "50 Back" ],
              pbs: {"100 IM" => 115, "25 Breast" => 30, "50 Free" => 42, "50 Back" => 50, "100 Free" => 95, "50 Breast" => 47, "25 Fly" => 20, "25 Back" => 22 },
              dob: "28/03/1999",
              results: {
@@ -28,8 +28,8 @@ cassandra: { name: "Cassandra Black",  sex: "Female", soo: "10041937",
              }
            },
 cathy:     { name: "Cathy Lemon",      sex: "Female", soo: "10051944",
-             events: [ "100 IM", "25 Breast", "50 Back", "50 Free" ],
-             pbs: { "100 Free" => 150, "50 Back" => 80, "50 Breast" => 89, "100 IM" => 169, "25 Fly" => 30, "50 Free" => 72, "25 Breast" => 43 },
+             events: [ "200 Free", "25 Breast", "50 Back", "25 Free" ],
+             pbs: { "100 Free" => 150, "50 Back" => 80, "50 Breast" => 89, "100 IM" => 169, "25 Fly" => 30, "50 Free" => 72, "25 Breast" => 43, "200 Free" => 340, "25 Free" => 33 },
              dob: "09/03/1968",
              results: {
                "Variety Village Fall 2014" => { "100 Free" => 170.92, "50 Back" => 85.34, "50 Breast" => 92.44, "100 IM" => 181.96 },
@@ -108,7 +108,7 @@ james:     { name: "James Brown",      sex: "Male",   soo: "10095198",
              }
            },
 jeffc:     { name: "Jeffrey Campbell", sex: "Male",   soo: "10043196",
-             events: [ "100 IM", "50 Free", "25 Fly", "50 Back" ],
+             events: [ "50 Fly", "50 Free", "25 Fly", "50 Back" ],
              pbs: { "100 Free" => 98, "50 Back" => 51, "25 Breast" => 29, "50 Fly" => 55, "25 Free" => 16, "50 Breast" => 70, "100 IM" => 140, "25 Back" => 23, "50 Free" => 35, "25 Fly" => 20 },
              dob: "17/05/1984",
              results: {
@@ -258,8 +258,8 @@ tasia:     { name: "Tasia Mazomenos",  sex: "Female", soo: "10053230",
              }
            },
 tomas:     { name: "Tomas Carlino",    sex: "Male",   soo: "10139476",
-             events: [ "50 Free", "25 Free", "25 Fly", "50 Back" ],
-             pbs: { "50 Free" => 58, "25 Back" => 29, "25 Breast" => 39, "25 Fly" => 35, "50 Back" => 65, "25 Free" => 22 },
+             events: [ "50 Free", "25 Free", "50 Fly", "50 Back" ],
+             pbs: { "50 Free" => 58, "25 Back" => 29, "25 Breast" => 39, "25 Fly" => 35, "50 Back" => 65, "25 Free" => 22, "50 Fly" => 70 },
              dob: "11/10/1996",
              results: {
                "Variety Village Fall 2014" => { "50 Free" => 56.84, "25 Back" => 30.19, "25 Breast" => 33.93, "25 Fly" => 45.88 },
@@ -308,8 +308,8 @@ meets = {
     swimmers: [ :callum, :cathy, :duncan, :hilda, :james, :jeffc, :jessica, :lindsay, :marco, :marianna, :michaelr, :pete, :rick, :sarah, :steven, :tasia, :tomas ]
   },
   "Variety Village Spring 2016" => {
-    events: [ "200 Free", "25 Free", "100 IM", "100 Breast", "25 Fly", "25 Breast", "50 Fly", "25 Back", "100 Back", "50 Breast", "50 Free", "100 Free", "50 Back" ],
-    swimmers: [ :callum, :cassandra, :cathy, :dj, :duncan, :gord, :hilda, :james, :jeffc, :jeffv, :jessica, :lindsay, :marco, :marianna, :michaelh, :michaelr, :pete, :rick, :sarah, :steven, :tasia, :tomas, :vishal ]
+    events: [ "200 Free", "100 IM", "50 Free", "100 Back", "50 Fly", "25 Breast", "25 Back", "100 Breast", "50 Back", "50 Breast", "100 Free", "25 Fly", "25 Free" ],
+    swimmers: [ :callum, :cathy, :dj, :duncan, :hilda, :james, :jeffc, :jeffv, :jessica, :lindsay, :marco, :marianna, :michaelr, :rick, :sarah, :steven, :tasia, :tomas, :vishal ]
   },
 }
 
