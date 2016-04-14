@@ -10,7 +10,7 @@ andreas:   { name: "Andreas Prinz",    sex: "Male",   soo: "10056660",
              }
            },
 callum: { name: "Callum Denault",  sex: "Male", soo: "1045214",
-             events: [ "25 Fly", "25 Breast", "50 Free", "50 Back" ],
+             events: [ "25 Fly", "25 Breast", "50 Free", "50 Back", "100 IM", "50 Breast" ],
              pbs: {"100 IM" => 115, "25 Breast" => 30, "50 Free" => 42, "50 Back" => 50, "100 Free" => 95, "50 Breast" => 47, "25 Fly" => 20, "25 Back" => 22 },
              dob: "28/03/1999",
              results: {
@@ -28,8 +28,8 @@ cassandra: { name: "Cassandra Black",  sex: "Female", soo: "10041937",
              }
            },
 cathy:     { name: "Cathy Lemon",      sex: "Female", soo: "10051944",
-             events: [ "200 Free", "25 Breast", "50 Back", "25 Free" ],
-             pbs: { "100 Free" => 150, "50 Back" => 80, "50 Breast" => 89, "100 IM" => 169, "25 Fly" => 30, "50 Free" => 72, "25 Breast" => 43, "200 Free" => 340, "25 Free" => 33 },
+             events: [ "200 Free", "25 Breast", "50 Back", "25 Free", "25 Back", "50 Free" ],
+             pbs: { "100 Free" => 150, "50 Back" => 80, "50 Breast" => 89, "100 IM" => 169, "25 Fly" => 30, "50 Free" => 72, "25 Breast" => 43, "200 Free" => 340, "25 Free" => 33, "25 Back" => 36 },
              dob: "09/03/1968",
              results: {
                "Variety Village Fall 2014" => { "100 Free" => 170.92, "50 Back" => 85.34, "50 Breast" => 92.44, "100 IM" => 181.96 },
@@ -96,7 +96,7 @@ hilda:     { name: "Hilda Wong",       sex: "Female", soo: "10062297",
              }
            },
 james:     { name: "James Brown",      sex: "Male",   soo: "10095198",
-             events: [ "25 Free", "50 Back", "25 Breast", "50 Free" ],
+             events: [ "25 Free", "50 Back", "25 Breast", "50 Free", "25 Back", "50 Breast" ],
              pbs: { "100 Free" => 160, "50 Back" => 76, "50 Breast" => 80, "25 Fly" => 45, "25 Free" => 30, "25 Back" => 35, "50 Free" => 55 },
              dob: "02/08/1998",
              results: {
@@ -108,7 +108,7 @@ james:     { name: "James Brown",      sex: "Male",   soo: "10095198",
              }
            },
 jeffc:     { name: "Jeffrey Campbell", sex: "Male",   soo: "10043196",
-             events: [ "50 Fly", "50 Free", "25 Fly", "50 Back" ],
+             events: [ "50 Fly", "50 Free", "25 Fly", "50 Back", "100 IM", "25 Breast" ],
              pbs: { "100 Free" => 98, "50 Back" => 51, "25 Breast" => 29, "50 Fly" => 55, "25 Free" => 16, "50 Breast" => 70, "100 IM" => 140, "25 Back" => 23, "50 Free" => 35, "25 Fly" => 20 },
              dob: "17/05/1984",
              results: {
@@ -132,7 +132,7 @@ jeffv:     { name: "Jeffrey Vanier",   sex: "Male",   soo: "10061088",
              }
            },
 jessica:   { name: "Jessica Nishio",   sex: "Female", soo: "10144952",
-             events: [ "25 Free", "50 Free", "25 Breast", "50 Back" ],
+             events: [ "25 Free", "50 Free", "25 Breast", "50 Back", "50 Breast", "25 Back" ],
              pbs: { "25 Free" => 30, "25 Back" => 35, "25 Breast" => 40, "50 Free" => 75, "50 Back" => 85, "50 Breast" => 100 },
              dob: "18/06/2000",
              results: {
@@ -153,8 +153,8 @@ joey:      { name: "Joseph Carnovale", sex: "Male",   soo: "10043325",
              }
            },
 lindsay:   { name: "Lindsay Suline",   sex: "Female", soo: "10148007",
-             events: [ "25 Free", "50 Free", "25 Breast", "50 Back" ],
-             pbs: { "25 Free" => 35, "50 Free" => 75, "25 Back" => 40, "25 Breast" => 45, "50 Back" => 90, "50 Breast" => 130 },
+             events: [ "25 Free", "50 Free", "25 Breast", "50 Back", "100 IM", "25 Back" ],
+             pbs: { "25 Free" => 35, "50 Free" => 75, "25 Back" => 40, "25 Breast" => 45, "50 Back" => 90, "50 Breast" => 130, "100 IM" => 181.3 },
              dob: "14/04/1991",
              results: {
                "Variety Village Fall 2014" => { "25 Free" => 40.22, "50 Free" => 84.45, "25 Back" => 33.80, "25 Breast" => 46.99 },
@@ -177,7 +177,7 @@ marco:     { name: "Marco Fata",       sex: "Male",   soo: "10046465",
              }
            },
 marianna:  { name: "Marianna Adams",   sex: "Female", soo: "10040299",
-             events: [ "25 Free", "50 Free", "25 Breast", "50 Back" ],
+             events: [ "25 Free", "50 Free", "25 Breast", "50 Breast" ],
              pbs: { "50 Free" => 70, "50 Back" => 80, "25 Breast" => 50, "50 Breast" => 110, "25 Free" => 30, "25 Back" => 39 },
              dob: "26/10/1977",
              results: {
@@ -258,7 +258,7 @@ tasia:     { name: "Tasia Mazomenos",  sex: "Female", soo: "10053230",
              }
            },
 tomas:     { name: "Tomas Carlino",    sex: "Male",   soo: "10139476",
-             events: [ "50 Free", "25 Free", "50 Fly", "50 Back" ],
+             events: [ "50 Free", "25 Free", "50 Fly", "50 Back", "25 Fly", "25 Back" ],
              pbs: { "50 Free" => 58, "25 Back" => 29, "25 Breast" => 39, "25 Fly" => 35, "50 Back" => 65, "25 Free" => 22, "50 Fly" => 70 },
              dob: "11/10/1996",
              results: {
@@ -311,6 +311,10 @@ meets = {
     events: [ "200 Free", "100 IM", "50 Free", "100 Back", "50 Fly", "25 Breast", "25 Back", "100 Breast", "50 Back", "50 Breast", "100 Free", "25 Fly", "25 Free" ],
     swimmers: [ :callum, :cathy, :dj, :duncan, :hilda, :james, :jeffc, :jeffv, :jessica, :lindsay, :marco, :marianna, :michaelr, :rick, :sarah, :steven, :tasia, :tomas, :vishal ]
   },
+  "Anne Ottenbrite 2016" => {
+    events: [ "200 Free", "100 IM", "50 Free", "100 Back", "50 Fly", "25 Breast", "25 Back", "100 Breast", "50 Back", "50 Breast", "100 Free", "25 Fly", "25 Free" ],
+    swimmers: [ :callum, :cathy, :duncan, :hilda, :james, :jeffc, :jeffv, :jessica, :lindsay, :marco, :marianna, :michaelr, :rick, :sarah, :steven, :tasia, :tomas ]
+  },
 }
 
 require 'date'
@@ -334,7 +338,7 @@ require 'date'
 #   end
 # end
 
-MEET = "Variety Village Spring 2016"
+MEET = "Anne Ottenbrite 2016"
 meet_events = meets[MEET][:events]
 meet_swimmers = meets[MEET][:swimmers]
 
@@ -342,36 +346,13 @@ puts "Name, Sex, DOB, SOO Number, #{meet_events.join(", ")}"
 meet_swimmers.each do |swimmer|
     swimmer_hash = roster[swimmer]
 
-#   puts "*"*20
-#   puts "West Toronto Barracudas"
-#   puts swimmer_hash[:name]
-#   # puts "Michael Goodwin; mike.goodwin@gmail.com; 647.339.5827"
-#   puts Date.parse(swimmer_hash[:dob])
-#   puts swimmer_hash[:soo]
-#   swimmer_hash[:events].each do |event|
-#     if swimmer_hash[:events].include? event
-#       pb = nil
-#       swimmer_hash[:results].keys.each do |meet|
-#         meet_result = swimmer_hash[:results][meet][event]
-#         pb = swimmer_hash[:results][meet][event] if meet_result && (pb.nil? || meet_result < pb)
-#       end
-#       t = pb || swimmer_hash[:pbs][event]
-#       time = Time.at(t).utc.strftime("%-M:%S.%2N")
-#     else
-#       time = ""
-#     end
-#     puts "#{event} - #{time}"
-#     # t = swimmer_hash[:pbs][event]
-#     # time = Time.at(t).utc.strftime("%-M:%S.%2N")
-#     # puts "#{event} - #{time}"
-#   end
-
-  row_string = ""
-  row_string << swimmer_hash[:name] << ", "
-  row_string << swimmer_hash[:sex] << ", "
-  row_string << swimmer_hash[:dob] << ", "
-  row_string << swimmer_hash[:soo] << ", "
-  meet_events.each do |event|
+  puts "*"*20
+  puts "West Toronto Barracudas"
+  puts swimmer_hash[:name]
+  # puts "Michael Goodwin; mike.goodwin@gmail.com; 647.339.5827"
+  puts Date.parse(swimmer_hash[:dob])
+  puts swimmer_hash[:soo]
+  swimmer_hash[:events].each do |event|
     if swimmer_hash[:events].include? event
       pb = nil
       swimmer_hash[:results].keys.each do |meet|
@@ -383,7 +364,30 @@ meet_swimmers.each do |swimmer|
     else
       time = ""
     end
-    row_string << time.to_s << ", "
+    puts "#{event} - #{time}"
+    # t = swimmer_hash[:pbs][event]
+    # time = Time.at(t).utc.strftime("%-M:%S.%2N")
+    # puts "#{event} - #{time}"
   end
-  puts row_string
+
+  # row_string = ""
+  # row_string << swimmer_hash[:name] << ", "
+  # row_string << swimmer_hash[:sex] << ", "
+  # row_string << swimmer_hash[:dob] << ", "
+  # row_string << swimmer_hash[:soo] << ", "
+  # meet_events.each do |event|
+  #   if swimmer_hash[:events].include? event
+  #     pb = nil
+  #     swimmer_hash[:results].keys.each do |meet|
+  #       meet_result = swimmer_hash[:results][meet][event]
+  #       pb = swimmer_hash[:results][meet][event] if meet_result && (pb.nil? || meet_result < pb)
+  #     end
+  #     t = pb || swimmer_hash[:pbs][event]
+  #     time = Time.at(t).utc.strftime("%-M:%S.%2N")
+  #   else
+  #     time = ""
+  #   end
+  #   row_string << time.to_s << ", "
+  # end
+  # puts row_string
 end
