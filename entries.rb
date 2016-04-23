@@ -9,7 +9,7 @@ andreas:   { name: "Andreas Prinz",    sex: "Male",   soo: "10056660",
                "Variety Village Spring 2015" => { "50 Free" => 59.09, "50 Back" => 66.98, "25 Fly" => 36.87, "50 Fly" => 77.57 },
              }
            },
-callum: { name: "Callum Denault",  sex: "Male", soo: "1045214",
+callum: { name: "Callum Denault",  sex: "Male", soo: "10045214",
              events: [ "25 Fly", "25 Breast", "50 Free", "50 Back", "100 IM", "50 Breast" ],
              pbs: {"100 IM" => 115, "25 Breast" => 30, "50 Free" => 42, "50 Back" => 50, "100 Free" => 95, "50 Breast" => 47, "25 Fly" => 20, "25 Back" => 22 },
              dob: "28/03/1999",
