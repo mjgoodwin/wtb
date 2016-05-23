@@ -10,11 +10,14 @@ andreas:   { name: "Andreas Prinz",    sex: "Male",   soo: "10056660",
              }
            },
 callum: { name: "Callum Denault",  sex: "Male", soo: "10045214",
-             events: [ "25 Fly", "25 Breast", "50 Free", "50 Back", "100 IM", "50 Breast" ],
-             pbs: {"100 IM" => 115, "25 Breast" => 30, "50 Free" => 42, "50 Back" => 50, "100 Free" => 95, "50 Breast" => 47, "25 Fly" => 20, "25 Back" => 22 },
+             events: [ "25 Free", "25 Breast", "50 Free", "50 Breast", "100 Free", "100 Breast" ],
+             pbs: {"100 IM" => 115, "25 Breast" => 30, "50 Free" => 42, "50 Back" => 50, "100 Free" => 95, "50 Breast" => 47, "25 Fly" => 20, "25 Back" => 22, "25 Free" => 19, "100 Breast" => 105 },
              dob: "28/03/1999",
              results: {
                "Mike Conrad Winter 2016" => { "100 IM" => 101.06, "25 Breast" => 19.95, "50 Free" => 40.81, "50 Back" => 48.06 }, # DQ in 100 IM
+               "Sarah Carman Spring 2016" => { "25 Fly" => 26.05, "100 Free" => 98.2, "25 Back" => 22.65, "100 IM" => 101.16, "50 Breast" => 46.22 },
+               "Variety Village Spring 2016" => { "25 Fly" => 22.14, "25 Breast" => 22.54, "50 Free" => 39.52, "50 Back" => 48.61 }, # DQ in 25 Breast (Leg)
+               "Anne Ottenbrite 2016" => { "25 Fly" => 23.09, "25 Breast" => 23.02, "50 Free" => 37.31, "50 Back" => 45.35, "100 IM" => 98.43, "50 Breast" => 45.62 }
              }
            },
 cassandra: { name: "Cassandra Black",  sex: "Female", soo: "10041937",
