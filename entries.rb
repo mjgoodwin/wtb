@@ -5,19 +5,21 @@ amanda:     { name: "Amanda Luong (outside lane)",      sex: "Female", soo: "101
              dob: "19/06/1996",
              results: {
                "Mike Conrad Winter 2017" => { "50 Free" => 162.68, "25 Back" => 68.69, "50 Back" => 189.51, "25 Free" => 57.15 },
+               "Anne Ottenbrite 2017" => { "25 Free" => 47.45, "50 Free" => 133.97, "25 Back" => 91.42 },
              }
            },
 ben: { name: "Ben Caplan",  sex: "Male", soo: "10124680",
-             events: [ "100 Free", "50 Back", "50 Free", "25 Free", "25 Back" ],
+             events: [ "50 Back", "50 Free", "25 Free", "25 Back" ],
              pbs: {"100 IM" => 120, "50 Fly" => 50, "25 Free" => 20, "50 Back" => 50, "200 Free" => 200, "50 Breast" => 48, "25 Fly" => 23, "25 Back" => 23 },
              dob: "13/05/1996",
              results: {
                "Variety Village Fall 2016" => { "25 Back" => 19.61, "100 Free" => 90.8, "25 Free" => 15.97, "50 Free" => 36.56 },
                "Mike Conrad Winter 2017" => { "25 Back" => 20.88, "100 IM" => 136.44, "25 Fly" => 27.22, "50 Breast" => 66.39, "50 Back" => 46.53, "200 Free" => 206.60 },
+               "Anne Ottenbrite 2017" => { "25 Free" => 16.44, "50 Free" => 36.44, "100 Free" => 92.29, "25 Back" => 21.8, "50 Back" => 50.78 },
              }
            },
 callum: { name: "Callum Denault",  sex: "Male", soo: "10045214",
-             events: [ "200 Breast", "100 Breast", "50 Breast", "100 IM", "50 Back" ],
+             events: [ "200 Breast", "100 Breast", "50 Breast", "100 IM" ],
              pbs: {"100 IM" => 115, "25 Breast" => 30, "50 Free" => 42, "50 Back" => 50, "100 Free" => 95, "50 Breast" => 47, "25 Fly" => 20, "25 Back" => 22, "25 Free" => 19, "100 Breast" => 105, "200 Breast" => 240, "50 Fly" => 48, "200 Free" => 200 },
              dob: "28/03/1999",
              results: {
@@ -27,6 +29,7 @@ callum: { name: "Callum Denault",  sex: "Male", soo: "10045214",
                "Anne Ottenbrite 2016" => { "25 Fly" => 23.09, "25 Breast" => 23.02, "50 Free" => 37.31, "50 Back" => 45.35, "100 IM" => 98.43, "50 Breast" => 45.62 },
                "Variety Village Fall 2016" => { "100 IM" => 109.51, "25 Free" => 15.64, "50 Fly" => 68.09 }, # 200 Breast" => 223.25?
                "Mike Conrad Winter 2017" => { "25 Back" => 21.78, "100 IM" => 102.55, "25 Fly" => 22.43, "50 Breast" => 47.94, "50 Back" => 47.67, "200 Free" => 217.50 },
+               "Anne Ottenbrite 2017" => { "100 IM" => 98.57, "50 Breast" => 46.98, "200 Breast" => 272.41, "50 Back" => 47.37, "100 Breast" => 107.88 },
              }
            },
 cassandra: { name: "Cassandra Black (outside lane)",  sex: "Female", soo: "10041937",
@@ -38,10 +41,11 @@ cassandra: { name: "Cassandra Black (outside lane)",  sex: "Female", soo: "10041
                "Mike Conrad Winter 2015" => { "25 Free" => 56.43, "50 Free" => 147.85, "25 Back" => 60.65, "50 Back" => 126.09 },
                "Mike Conrad Winter 2016" => { "25 Free" => 67.96, "50 Free" => 130.64, "25 Back" => 60.05, "50 Back" => 138.33 },
                "Mike Conrad Winter 2017" => { "50 Free" => 151.22, "25 Back" => 59.97, "50 Back" => 142.45, "25 Free" => 68.22 },
+               "Anne Ottenbrite 2017" => { "25 Free" => 71.72, "50 Free" => 152.01, "25 Back" => 60.3, "50 Back" => 138.45 },
              }
            },
 cathy:     { name: "Cathy Lemon",      sex: "Female", soo: "10051944",
-             events: [ "100 Free", "50 Free", "50 Back", "100 IM", "50 Breast" ],
+             events: [ "100 Free", "50 Back", "100 IM", "50 Breast" ],
              pbs: { "100 Free" => 150, "50 Back" => 80, "50 Breast" => 89, "100 IM" => 169, "25 Fly" => 30, "50 Free" => 72, "25 Breast" => 43, "200 Free" => 340, "25 Free" => 33, "25 Back" => 36 },
              dob: "09/03/1968",
              results: {
@@ -54,6 +58,7 @@ cathy:     { name: "Cathy Lemon",      sex: "Female", soo: "10051944",
                "Anne Ottenbrite 2016" => { "200 Free" => 349.22, "25 Breast" => 47.4, "50 Back" => 91.87, "25 Free" => 34.16, "25 Back" => 40.89, "50 Free" => 77.44 },
                "Variety Village Fall 2016" => { "100 IM" => 189.97, "50 Breast" => 101.13, "50 Back" => 85.15, "100 Free" => 168.25 }, # DQ in 100 IM (technical)
                "Mike Conrad Winter 2017" => { "50 Free" => 85.16, "25 Breast" => 48.52, "50 Back" => 97.34, "25 Back" => 43.13, "200 Free" => 370.78, "100 IM" => 195.24 },
+               "Anne Ottenbrite 2017" => { "100 IM" => 184.65, "50 Free" => 78.07, "100 Free" => 171.45, "50 Breast" => 105.15, "50 Back" => 89.34 },
              }
            },
 dj:        { name: "David Beaton",     sex: "Male",   soo: "10041460",
@@ -69,8 +74,8 @@ dj:        { name: "David Beaton",     sex: "Male",   soo: "10041460",
              }
            },
 hilda:     { name: "Hilda Wong",       sex: "Female", soo: "10062297",
-             events: [ "25 Free", "50 Free", "25 Back", "25 Breast", "50 Back" ],
-             pbs: { "25 Free" => 32, "50 Free" => 68, "25 Back" => 35, "25 Breast" => 45, "50 Back" => 88, "25 Fly" => 40 },
+             events: [ "25 Free", "50 Free", "25 Breast", "50 Back" ],
+             pbs: { "50 Free" => 68, "25 Breast" => 45, "50 Back" => 88, "25 Fly" => 40 },
              dob: "28/01/1982",
              results: {
                "Variety Village Fall 2014" => { "25 Free" => 32.18, "50 Free" => 71.38, "25 Back" => 38.43, "25 Breast" => 55.35 },
@@ -82,11 +87,12 @@ hilda:     { name: "Hilda Wong",       sex: "Female", soo: "10062297",
                "Anne Ottenbrite 2016" => { "25 Free" => 35.09, "50 Free" => 81.16, "25 Back" => 38.2, "50 Back" => 84.23 },
                "Variety Village Fall 2016" => { "50 Free" => 70.63, "25 Back" => 37.87, "50 Back" => 82.7, "25 Free" => 30.97 },
                "Mike Conrad Winter 2017" => { "50 Free" => 75.67, "25 Back" => 41.57, "50 Back" => 93.68, "25 Free" => 33.85, "25 Fly" => 50.75 },
+               "Anne Ottenbrite 2017" => { "25 Free" => 34.4, "50 Free" => 71.24, "25 Back" => 39.24, "25 Breast" => 55.26, "50 Back" => 84.93 },
              }
            },
 james:     { name: "James Brown",      sex: "Male",   soo: "10095198",
-             events: [ "25 Free", "50 Breast", "50 Free", "50 Back" ],
-             pbs: { "100 Free" => 160, "50 Back" => 76, "50 Breast" => 80, "25 Fly" => 45, "25 Free" => 30, "25 Back" => 35, "50 Free" => 55 },
+             events: [ "50 Free", "25 Back", "100 IM", "50 Back" ],
+             pbs: { "100 Free" => 160, "50 Back" => 76, "50 Breast" => 80, "25 Fly" => 45, "25 Free" => 30, "25 Back" => 35, "50 Free" => 55, "100 IM" => 150 },
              dob: "02/08/1998",
              results: {
                "Variety Village Fall 2014" => { "100 Free" => 165.12, "50 Back" => 84.19, "50 Breast" => 121.15, "25 Breast" => 67.53 }, # DQ in 50 Back and 25 Fly
@@ -99,10 +105,11 @@ james:     { name: "James Brown",      sex: "Male",   soo: "10095198",
                "Anne Ottenbrite 2016" => { "25 Free" => 24.47, "50 Back" => 65.88, "25 Breast" => 34.1, "50 Free" => 58, "25 Back" => 34.61, "50 Breast" => 80.58 },
                "Variety Village Fall 2016" => { "50 Free" => 70.82, "25 Breast" => 37.51, "50 Back" => 58.65, "25 Free" => 28.28 },
                "Mike Conrad Winter 2017" => { "50 Free" => 66.60, "50 Back" => 67.18, "25 Free" => 23.41 }, # DQ in 25 Breast
+               "Anne Ottenbrite 2017" => { "25 Free" => 22.48, "50 Free" => 49.23, "50 Breast" => 70.67, "50 Back" => 59.77 },
              }
            },
 jeffc:     { name: "Jeffrey Campbell", sex: "Male",   soo: "10043196",
-             events: [ "25 Fly", "25 Free", "25 Back", "25 Breast", "100 IM" ],
+             events: [ "25 Back", "25 Free", "50 Free", "50 Back" ],
              pbs: { "100 Free" => 98, "50 Back" => 51, "25 Breast" => 29, "50 Fly" => 55, "25 Free" => 16, "50 Breast" => 70, "100 IM" => 140, "25 Back" => 23, "50 Free" => 35, "25 Fly" => 20 },
              dob: "17/05/1984",
              results: {
@@ -130,7 +137,7 @@ jeffv:     { name: "Jeffrey Vanier",   sex: "Male",   soo: "10061088",
              }
            },
 jessica:   { name: "Jessica Nishio",   sex: "Female", soo: "10144952",
-             events: [ "25 Free", "50 Free", "25 Breast", "25 Back" ],
+             events: [ "25 Free", "50 Free", "25 Breast", "50 Back" ],
              pbs: { "25 Free" => 30, "25 Back" => 35, "25 Breast" => 40, "50 Free" => 75, "50 Back" => 85, "50 Breast" => 100, "100 IM" => 200 },
              dob: "18/06/2000",
              results: {
@@ -138,10 +145,11 @@ jessica:   { name: "Jessica Nishio",   sex: "Female", soo: "10144952",
                "Provincial Qualifier 2015" => { "50 Free" => 68.97, "50 Back" => 78.56, "25 Back" => 36.71, "25 Breast" => 42.45 },
                "Mike Conrad Winter 2016" => { "25 Free" => 28.71, "50 Free" => 59.37, "25 Breast" => 39.73, "50 Back" => 75.08 },
                "Variety Village Fall 2016" => { "50 Free" => 66.33, "25 Breast" => 44.94, "50 Back" => 133.76, "25 Free" => 26.63 }, # DQ in 50 Back (technical)
+               "Anne Ottenbrite 2017" => { "25 Free" => 25.82, "50 Free" => 59.77, "25 Back" => 31.58, "25 Breast" => 40.64 },
              }
            },
 lindsay:   { name: "Lindsay Suline",   sex: "Female", soo: "10148007",
-             events: [ "25 Free", "50 Free", "25 Breast", "50 Back", "25 Back" ],
+             events: [ "25 Free", "50 Free", "25 Breast", "50 Back" ],
              pbs: { "25 Free" => 35, "50 Free" => 75, "25 Back" => 40, "25 Breast" => 45, "50 Back" => 90, "50 Breast" => 130, "100 IM" => 181.3 },
              dob: "14/04/1991",
              results: {
@@ -155,6 +163,7 @@ lindsay:   { name: "Lindsay Suline",   sex: "Female", soo: "10148007",
                "Anne Ottenbrite 2016" => { "25 Free" => 31.2, "50 Free" => 64.76, "25 Breast" => 67.71, "50 Back" => 84.76, "100 IM" => 207.14, "25 Back" => 39.64 },
                "Variety Village Fall 2016" => { "50 Free" => 67.54, "25 Breast" => 50.16, "50 Back" => 77.65, "25 Free" => 27.84 },
                "Mike Conrad Winter 2017" => { "50 Free" => 66.03, "25 Back" => 40.84, "50 Back" => 80.72, "25 Free" => 29.47, "100 IM" => 195.22, "25 Breast" => 56.75 },
+               "Anne Ottenbrite 2017" => { "25 Free" => 29.44, "50 Free" => 65.94, "25 Back" => 31.82, "25 Breast" => 68.07, "50 Back" => 78.58 },
              }
            },
 marco:     { name: "Marco Fata",       sex: "Male",   soo: "10046465",
@@ -172,6 +181,17 @@ marco:     { name: "Marco Fata",       sex: "Male",   soo: "10046465",
                "Anne Ottenbrite 2016" => { "25 Free" => 30.99, "50 Free" => 77.12, "25 Back" => 41.99, "50 Back" => 86.53 },
              }
            },
+marianna:  { name: "Marianna Adams",   sex: "Female", soo: "10040299",
+             events: [ "25 Free", "50 Free", "25 Breast", "50 Back" ],
+             pbs: { "50 Free" => 70, "50 Back" => 80, "25 Breast" => 50, "50 Breast" => 110, "25 Free" => 30, "25 Back" => 39 },
+             dob: "26/10/1977",
+             results: {
+               "Variety Village Fall 2014" => { "50 Free" => 77.16, "50 Back" => 84.64, "25 Breast" => 46.7, "50 Breast" => 118.77 },
+               "Mike Conrad Winter 2015" => { "50 Free" => 76.16, "50 Back" => 91.1, "25 Breast" => 54.22, "25 Free" => 34.45 },
+               "Variety Village Spring 2015" => { "50 Free" => 76.97, "50 Back" => 93.02, "25 Breast" => 48.28, "25 Free" => 35.55 },
+               "Mike Conrad Winter 2016" => { "25 Free" => 32.4, "50 Free" => 67.34, "25 Breast" => 40.19, "50 Back" => 101.65 }, #DQ in 50 Back (finish)
+             }
+           },
 michaelh:  { name: "Michael Hong",     sex: "Male",   soo: "10049365",
              events: [ "25 Free", "50 Free", "25 Back", "50 Back" ],
              pbs: { "25 Free" => 38, "50 Free" => 90, "25 Back" => 56, "50 Back" => 125 },
@@ -182,6 +202,7 @@ michaelh:  { name: "Michael Hong",     sex: "Male",   soo: "10049365",
                "Variety Village Spring 2015" => { "25 Free" => 44.01, "50 Free" => 95.29, "25 Back" => 90.8, "50 Back" => 184.44 },
                "Mike Conrad Winter 2016" => { "25 Free" => 41.73, "50 Free" => 98.43, "25 Back" => 77.83, "50 Back" => 130.88 },
                "Mike Conrad Winter 2017" => { "50 Free" => 105.78, "50 Back" => 115.69, "25 Free" => 38.63 }, # DQ in 25 Back
+               "Anne Ottenbrite 2017" => { "25 Free" => 39.77, "50 Free" => 88.75, "25 Back" => 49.78, "50 Back" => 102.55 },
              }
            },
 michaelr:  { name: "Mike Roseros",     sex: "Male",   soo: "10057679",
@@ -199,6 +220,7 @@ michelle:  { name: "Michelle Lee (outside lane)",    sex: "Female",   soo: "1005
              dob: "19/09/1985",
              results: {
                "Mike Conrad Winter 2017" => { "25 Free" => 45.28, "25 Back" => 57.97 },
+               "Anne Ottenbrite 2017" => { "25 Free" => 47.65, "50 Free" => 111.65, "25 Back" => 53.4 },
              }
            },
 pete:      { name: "Peter Flagler",    sex: "Male",   soo: "10046714",
@@ -240,6 +262,7 @@ sarah:     { name: "Sarah Bruni (outside lane)",      sex: "Female", soo: "10042
                "Mike Conrad Winter 2016" => { "25 Free" => 39.74, "50 Free" => 100.9, "25 Back" => 53.15, "50 Back" => 122.75 },
                "Sarah Carman Spring 2016" => { "25 Free" => 42.34, "50 Free" => 97.5, "25 Back" => 74.17, "50 Back" => 127.77 },
                "Mike Conrad Winter 2017" => { "25 Back" => 57.44 },
+               "Anne Ottenbrite 2017" => { "25 Free" => 43.61, "50 Free" => 114.06, "25 Back" => 71.47 },
              }
            },
 tasia:     { name: "Tasia Mazomenos (outside lane)",  sex: "Female", soo: "10053230",
@@ -254,7 +277,7 @@ tasia:     { name: "Tasia Mazomenos (outside lane)",  sex: "Female", soo: "10053
              }
            },
 tomas:     { name: "Tomas Carlino",    sex: "Male",   soo: "10139476",
-             events: [ "50 Free", "50 Back", "25 Fly", "25 Free", "25 Back" ],
+             events: [ "100 IM", "50 Back", "25 Free", "25 Breast" ],
              pbs: { "50 Free" => 58, "25 Back" => 29, "25 Breast" => 39, "25 Fly" => 35, "50 Back" => 65, "25 Free" => 22, "50 Fly" => 70, "100 IM" => 150 },
              dob: "11/10/1996",
              results: {
@@ -267,6 +290,7 @@ tomas:     { name: "Tomas Carlino",    sex: "Male",   soo: "10139476",
                "Anne Ottenbrite 2016" => { "50 Free" => 48.89, "25 Free" => 22.14, "50 Fly" => 79.27, "50 Back" => 62.23, "25 Fly" => 31.87, "25 Back" => 25.14 },
                "Variety Village Fall 2016" => { "50 Fly" => 82.77, "50 Back" => 59.59, "25 Free" => 21.98 }, # DQ in 50 Fly (technical)
                "Mike Conrad Winter 2017" => { "50 Free" => 55.50, "25 Back" => 25.20, "50 Back" => 60.41, "25 Free" => 22.11, "100 IM" => 140.68, "25 Fly" => 27.66 },
+               "Anne Ottenbrite 2017" => { "25 Free" => 22.82, "25 Fly" => 24.79, "50 Free" => 49.39, "25 Back" => 24.35, "50 Back" => 55.63 },
              }
            },
 vishal:    { name: "Vishal Matekar",   sex: "Male",   soo: "10053200",
@@ -281,10 +305,11 @@ vishal:    { name: "Vishal Matekar",   sex: "Male",   soo: "10053200",
                "Variety Village Spring 2016" => { "25 Free" => 41.21, "50 Free" => 95.5, "25 Back" => 57.27, "50 Back" => 114 }, # DQ in 25 Back and 50 Back
                "Variety Village Fall 2016" => { "50 Free" => 95.55, "25 Back" => 57.81, "50 Back" => 86.88, "25 Free" => 34.18 }, # DQ in 50 Back (techincal)
                "Mike Conrad Winter 2017" => { "25 Back" => 63.94, "50 Back" => 137.69, "25 Free" => 43.06 }, # DQ in 50 Free
+               "Anne Ottenbrite 2017" => { "25 Free" => 41.71, "50 Free" => 94.77, "25 Back" => 62.03, "50 Back" => 126.52 }, # DQ in 50 Free (pulling on rope)
              }
            },
 }
-ALL = [:amanda, :ben, :callum, :cassandra, :cathy, :dj, :hilda, :james, :jeffc, :jeffv, :jessica, :lindsay, :marco, :michaelh, :michaelr, :michelle, :pete, :rick, :sarah, :tasia, :tomas, :vishal]
+ALL = [:amanda, :ben, :callum, :cassandra, :cathy, :dj, :hilda, :james, :jeffc, :jeffv, :jessica, :lindsay, :marco, :marianna, :michaelh, :michaelr, :michelle, :pete, :rick, :sarah, :tasia, :tomas, :vishal]
 
 meets = {
   "Variety Village Fall 2014" => {
@@ -331,6 +356,10 @@ meets = {
     events: [ "200 Free", "25 Free", "100 IM", "100 Breast", "25 Fly", "25 Breast", "50 Fly", "25 Back", "100 Back", "50 Breast", "50 Free", "100 Free", "50 Back" ],
     swimmers: [ :amanda, :ben, :callum, :cassandra, :cathy, :hilda, :james, :jeffc, :jessica, :lindsay, :marco, :michaelh, :michelle, :sarah, :tomas, :vishal ]
   },
+  "Variety Village Fall 2017" => {
+    events: [ "200 Free", "100 IM", "50 Free", "100 Back", "50 Fly", "25 Breast", "25 Back", "100 Breast", "50 Back", "50 Breast", "100 Free", "25 Fly", "25 Free" ],
+    swimmers: [ :amanda, :ben, :callum, :cathy, :dj, :hilda, :james, :jeffc, :jeffv, :jessica, :lindsay, :marco, :marianna, :michelle, :pete, :rick, :sarah, :tasia, :tomas, :vishal ]
+  },
 }
 
 require 'date'
@@ -354,7 +383,7 @@ require 'date'
 #   end
 # end
 
-MEET = "Anne Ottenbrite 2017"
+MEET = "Variety Village Fall 2017"
 meet_events = meets[MEET][:events]
 meet_swimmers = meets[MEET][:swimmers]
 
@@ -364,8 +393,8 @@ meet_swimmers.each do |swimmer|
     swimmer_hash = roster[swimmer]
 
   puts "*"*20
-  puts swimmer_hash[:name]
   puts "West Toronto Barracudas"
+  puts swimmer_hash[:name]
   puts Date.parse(swimmer_hash[:dob])
   puts swimmer_hash[:soo]
   swimmer_hash[:events].each do |event|
@@ -380,7 +409,9 @@ meet_swimmers.each do |swimmer|
     else
       time = ""
     end
-    puts "#{event} - #{time}"
+    # puts "#{event} - #{time}"
+    puts "#{event}"
+    puts "#{time}"
     # t = swimmer_hash[:pbs][event]
     # time = Time.at(t).utc.strftime("%-M:%S.%2N")
     # puts "#{event} - #{time}"
