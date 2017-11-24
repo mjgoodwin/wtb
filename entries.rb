@@ -9,7 +9,7 @@ amanda:     { name: "Amanda Luong (outside lane)",      sex: "Female", soo: "101
              }
            },
 ben: { name: "Ben Caplan",  sex: "Male", soo: "10124680",
-             events: [ "50 Back", "50 Free", "25 Free", "25 Back" ],
+             events: [ "50 Back", "50 Free", "25 Free", "25 Back" ], # No Fly or Breast
              pbs: {"100 IM" => 120, "50 Fly" => 50, "25 Free" => 20, "50 Back" => 50, "200 Free" => 200, "50 Breast" => 48, "25 Fly" => 23, "25 Back" => 23 },
              dob: "13/05/1996",
              results: {
