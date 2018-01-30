@@ -9,8 +9,8 @@ amanda:     { name: "Amanda Luong (outside lane)",      sex: "Female", soo: "101
              }
            },
 ben: { name: "Ben Caplan",  sex: "Male", soo: "10124680",
-             events: [ "50 Back", "50 Free", "25 Free", "25 Back" ], # No Fly or Breast
-             pbs: {"100 IM" => 120, "50 Fly" => 50, "25 Free" => 20, "50 Back" => 50, "200 Free" => 200, "50 Breast" => 48, "25 Fly" => 23, "25 Back" => 23 },
+             events: [ "50 Back", "50 Free", "25 Free", "25 Back", "25 Breast", "100 Free" ], # No Fly or Breast
+             pbs: {"100 IM" => 120, "50 Fly" => 50, "25 Free" => 20, "50 Back" => 50, "200 Free" => 200, "50 Breast" => 48, "25 Fly" => 23, "25 Back" => 23, "25 Breast" => 30 },
              dob: "13/05/1996",
              results: {
                "Variety Village Fall 2016" => { "25 Back" => 19.61, "100 Free" => 90.8, "25 Free" => 15.97, "50 Free" => 36.56 },
@@ -19,7 +19,7 @@ ben: { name: "Ben Caplan",  sex: "Male", soo: "10124680",
              }
            },
 callum: { name: "Callum Denault",  sex: "Male", soo: "10045214",
-             events: [ "200 Breast", "100 Breast", "50 Breast", "100 IM" ],
+             events: [ "25 Breast", "100 Breast", "50 Breast", "200 Free", "25 Free", "25 Back" ],
              pbs: {"100 IM" => 115, "25 Breast" => 30, "50 Free" => 42, "50 Back" => 50, "100 Free" => 95, "50 Breast" => 47, "25 Fly" => 20, "25 Back" => 22, "25 Free" => 19, "100 Breast" => 105, "200 Breast" => 240, "50 Fly" => 48, "200 Free" => 200 },
              dob: "28/03/1999",
              results: {
@@ -45,7 +45,7 @@ cassandra: { name: "Cassandra Black (outside lane)",  sex: "Female", soo: "10041
              }
            },
 cathy:     { name: "Cathy Lemon",      sex: "Female", soo: "10051944",
-             events: [ "100 Free", "50 Back", "100 IM", "50 Breast" ],
+             events: [ "200 Free", "50 Back", "50 Breast", "50 Free", "25 Fly", "25 Breast" ],
              pbs: { "100 Free" => 150, "50 Back" => 80, "50 Breast" => 89, "100 IM" => 169, "25 Fly" => 30, "50 Free" => 72, "25 Breast" => 43, "200 Free" => 340, "25 Free" => 33, "25 Back" => 36 },
              dob: "09/03/1968",
              results: {
@@ -74,7 +74,7 @@ dj:        { name: "David Beaton",     sex: "Male",   soo: "10041460",
              }
            },
 hilda:     { name: "Hilda Wong",       sex: "Female", soo: "10062297",
-             events: [ "25 Free", "50 Free", "25 Breast", "50 Back" ],
+             events: [ "25 Free", "50 Free", "25 Breast", "50 Back", "25 Back" ],
              pbs: { "50 Free" => 68, "25 Breast" => 45, "50 Back" => 88, "25 Fly" => 40 },
              dob: "28/01/1982",
              results: {
@@ -91,7 +91,7 @@ hilda:     { name: "Hilda Wong",       sex: "Female", soo: "10062297",
              }
            },
 james:     { name: "James Brown",      sex: "Male",   soo: "10095198",
-             events: [ "50 Free", "25 Back", "100 IM", "50 Back" ],
+             events: [ "50 Free", "25 Back", "25 Free", "25 Fly", "25 Breast", "50 Back" ],
              pbs: { "100 Free" => 160, "50 Back" => 76, "50 Breast" => 80, "25 Fly" => 45, "25 Free" => 30, "25 Back" => 35, "50 Free" => 55, "100 IM" => 150 },
              dob: "02/08/1998",
              results: {
@@ -109,7 +109,7 @@ james:     { name: "James Brown",      sex: "Male",   soo: "10095198",
              }
            },
 jeffc:     { name: "Jeffrey Campbell", sex: "Male",   soo: "10043196",
-             events: [ "25 Back", "25 Free", "50 Free", "50 Back" ],
+             events: [ "25 Back", "25 Free", "50 Free", "50 Back", "25 Fly", "25 Breast" ],
              pbs: { "100 Free" => 98, "50 Back" => 51, "25 Breast" => 29, "50 Fly" => 55, "25 Free" => 16, "50 Breast" => 70, "100 IM" => 140, "25 Back" => 23, "50 Free" => 35, "25 Fly" => 20 },
              dob: "17/05/1984",
              results: {
@@ -137,7 +137,7 @@ jeffv:     { name: "Jeffrey Vanier",   sex: "Male",   soo: "10061088",
              }
            },
 jessica:   { name: "Jessica Nishio",   sex: "Female", soo: "10144952",
-             events: [ "25 Free", "50 Free", "25 Breast", "50 Back" ],
+             events: [ "25 Free", "50 Free", "25 Breast", "50 Back", "25 Back" ],
              pbs: { "25 Free" => 30, "25 Back" => 35, "25 Breast" => 40, "50 Free" => 75, "50 Back" => 85, "50 Breast" => 100, "100 IM" => 200 },
              dob: "18/06/2000",
              results: {
@@ -149,7 +149,7 @@ jessica:   { name: "Jessica Nishio",   sex: "Female", soo: "10144952",
              }
            },
 lindsay:   { name: "Lindsay Suline",   sex: "Female", soo: "10148007",
-             events: [ "25 Free", "50 Free", "25 Breast", "50 Back" ],
+             events: [ "25 Free", "50 Free", "25 Breast", "50 Back", "25 Back" ],
              pbs: { "25 Free" => 35, "50 Free" => 75, "25 Back" => 40, "25 Breast" => 45, "50 Back" => 90, "50 Breast" => 130, "100 IM" => 181.3 },
              dob: "14/04/1991",
              results: {
@@ -182,7 +182,7 @@ marco:     { name: "Marco Fata",       sex: "Male",   soo: "10046465",
              }
            },
 marianna:  { name: "Marianna Adams",   sex: "Female", soo: "10040299",
-             events: [ "25 Free", "50 Free", "25 Breast", "50 Back" ],
+             events: [ "25 Free", "50 Free", "25 Breast", "50 Back", "25 Back" ],
              pbs: { "50 Free" => 70, "50 Back" => 80, "25 Breast" => 50, "50 Breast" => 110, "25 Free" => 30, "25 Back" => 39 },
              dob: "26/10/1977",
              results: {
@@ -215,8 +215,8 @@ michaelr:  { name: "Mike Roseros",     sex: "Male",   soo: "10057679",
              }
            },
 michelle:  { name: "Michelle Lee (outside lane)",    sex: "Female",   soo: "10051835",
-             events: [ "25 Free", "50 Free", "25 Back" ],
-             pbs: { "50 Free" => 100 },
+             events: [ "25 Free", "50 Free", "25 Back", "50 Back" ],
+             pbs: { "50 Free" => 100, "50 Back" => 125 },
              dob: "19/09/1985",
              results: {
                "Mike Conrad Winter 2017" => { "25 Free" => 45.28, "25 Back" => 57.97 },
@@ -266,7 +266,7 @@ sarah:     { name: "Sarah Bruni (outside lane)",      sex: "Female", soo: "10042
              }
            },
 tasia:     { name: "Tasia Mazomenos (outside lane)",  sex: "Female", soo: "10053230",
-             events: [ "25 Free", "50 Free", "25 Back", "50 Back" ],
+             events: [ "25 Free", "50 Free", "25 Back" ],
              pbs: { "25 Free" => 60, "50 Free" => 125, "25 Back" => 65, "50 Back" => 135 },
              dob: "25/08/1972",
              results: {
@@ -277,7 +277,7 @@ tasia:     { name: "Tasia Mazomenos (outside lane)",  sex: "Female", soo: "10053
              }
            },
 tomas:     { name: "Tomas Carlino",    sex: "Male",   soo: "10139476",
-             events: [ "100 IM", "50 Back", "25 Free", "25 Breast" ],
+             events: [ "50 Back", "25 Free", "25 Breast", "25 Fly", "25 Back", "50 Free" ],
              pbs: { "50 Free" => 58, "25 Back" => 29, "25 Breast" => 39, "25 Fly" => 35, "50 Back" => 65, "25 Free" => 22, "50 Fly" => 70, "100 IM" => 150 },
              dob: "11/10/1996",
              results: {
@@ -360,6 +360,10 @@ meets = {
     events: [ "200 Free", "100 IM", "50 Free", "100 Back", "50 Fly", "25 Breast", "25 Back", "100 Breast", "50 Back", "50 Breast", "100 Free", "25 Fly", "25 Free" ],
     swimmers: [ :amanda, :ben, :callum, :cathy, :dj, :hilda, :james, :jeffc, :jeffv, :jessica, :lindsay, :marco, :marianna, :michelle, :pete, :rick, :sarah, :tasia, :tomas, :vishal ]
   },
+  "Mike Conrad Winter 2018" => {
+    events: [ "25 Free", "25 Back", "25 Breast", "25 Fly", "50 Free", "50 Back", "50 Breast", "50 Fly", "100 Free", "100 Back", "100 Breast", "200 Free", "400 Free" ], # Men's relay 2:44.88, Women's relay 4:39.35
+    swimmers: [ :amanda, :ben, :callum, :cathy, :hilda, :james, :jeffc, :jessica, :lindsay, :marco, :marianna, :michelle, :rick, :sarah, :tasia, :tomas ]
+  },
 }
 
 require 'date'
@@ -383,14 +387,14 @@ require 'date'
 #   end
 # end
 
-MEET = "Variety Village Fall 2017"
+MEET = "Mike Conrad Winter 2018"
 meet_events = meets[MEET][:events]
 meet_swimmers = meets[MEET][:swimmers]
 
 # puts "Name, Sex, DOB, SOO Number, #{meet_events.join(", ")}"
 puts "Michael Goodwin; mike.goodwin@gmail.com; 647.339.5827"
 meet_swimmers.each do |swimmer|
-    swimmer_hash = roster[swimmer]
+  swimmer_hash = roster[swimmer]
 
   puts "*"*20
   puts "West Toronto Barracudas"
