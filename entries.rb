@@ -10,6 +10,7 @@ amanda:     { name: "Amanda Luong", name_alt: "Amanda Luong (outside lane)",    
                "Variety Village Fall 2017" => { "25 Back" => 69.33, "25 Free" => 42.39, "50 Free" => 110.59 },
                "Anne Ottenbrite 2018" => { "25 Back" => 62.67, "25 Free" => 44.54 },
                "Variety Village Fall 2018" => { "25 Back" => 60.35, "25 Free" => 51.65, "50 Free" => 114.17 },
+               "Mark Tewksbury Spring 2019" => { "25 Free" => 51.7, "50 Free" => 119.12, "25 Back" => 53.5 }
              }
            },
 ben: { name: "Ben Caplan",  sex: "Male", soo: "10124680",
@@ -22,6 +23,7 @@ ben: { name: "Ben Caplan",  sex: "Male", soo: "10124680",
                "Anne Ottenbrite 2017" => { "25 Free" => 16.44, "50 Free" => 36.44, "100 Free" => 92.29, "25 Back" => 21.8, "50 Back" => 50.78 },
                "Variety Village Fall 2017" => { "25 Back" => 20.88, "25 Free" => 15.66, "50 Back" => 48.1, "50 Free" => 39.77 },
                "Variety Village Fall 2018" => { "100 Back" => 114.81, "100 Free" => 98.44, "25 Back" => 20.35, "25 Free" => 17.12 },
+               "Mark Tewksbury Spring 2019" => { "25 Free" => 16.19, "50 Free" => 38.65, "25 Back" => 20.87, "50 Back" => 47.84, "100 Free" => 95.7, "100 Back" => 114.82 }
              }
            },
 callum: { name: "Callum Denault",  sex: "Male", soo: "10045214",
@@ -39,6 +41,7 @@ callum: { name: "Callum Denault",  sex: "Male", soo: "10045214",
                "Variety Village Fall 2017" => { "100 Breast" => 105.24, "100 IM" => 102.93, "200 Breast" => 231.2, "50 Breast" => 48.75 },
                "Anne Ottenbrite 2018" => { "100 Breast" => 98.79, "50 Breast" => 44.43, "25 Fly" => 21.22, "100 IM" => 92.39, "200 Breast" => 227.59 },
                "Variety Village Fall 2018" => { "100 Breast" => 98.37, "100 IM" => 95.7, "50 Breast" => 42.17, "200 Breast" => 223.12 },
+               "Mark Tewksbury Spring 2019" => { "25 Free" => 16.15, "100 Breast" => 104.84, "25 Breast" => 20.33, "50 Breast" => 44.19, "200 Breast" => 225.72, "100 IM" => 95.11 }
              }
            },
 # cassandra: { name: "Cassandra Black", name_alt: "Cassandra Black (outside lane)",  sex: "Female", soo: "10041937",
@@ -71,6 +74,7 @@ cathy:     { name: "Cathy Lemon",      sex: "Female", soo: "10051944",
                "Variety Village Fall 2017" => { "100 Free" => 170.76, "100 IM" => 191.18, "50 Back" => 90.42, "50 Breast" => 97.81 },
                "Anne Ottenbrite 2018" => { "200 Free" => 386.54, "50 Free" => 87.49, "50 Breast" => 102.13, "50 Back" => 93.82, "100 IM" => 192.92 },
                "Variety Village Fall 2018" => { "100 IM" => 197.53, "100 Free" => 167.57, "50 Back" => 92.17, "50 Breast" => 101.62 },
+               "Mark Tewksbury Spring 2019" => { "50 Free" => 82.07, "50 Breast" => 108.62, "25 Fly" => 44.64, "50 Back" => 98.12, "100 Free" => 170.28, "100 IM" => 200.0 }
              }
            },
 # dj:        { name: "David Beaton",     sex: "Male",   soo: "10041460",
@@ -104,6 +108,7 @@ hilda:     { name: "Hilda Wong",       sex: "Female", soo: "10062297",
                "Variety Village Fall 2017" => { "25 Breast" => 55.88, "25 Free" => 33.76, "50 Back" => 83.91, "50 Free" => 74.47 },
                "Anne Ottenbrite 2018" => { "25 Free" => 39.44, "50 Free" => 78.28, "25 Back" => 39.97, "50 Back" => 83.79, "25 Breast" => 52.99 },
                "Variety Village Fall 2018" => { "25 Breast" => 54.09, "25 Free" => 38.84, "50 Back" => 79.64, "50 Free" => 72.34 },
+               "Mark Tewksbury Spring 2019" => { "25 Free" => 39.25, "50 Free" => 85.83, "25 Back" => 45.9, "50 Back" => 100.82, "25 Breast" => 56.43 }
              }
            },
 james:     { name: "James Brown",      sex: "Male",   soo: "10095198",
@@ -142,6 +147,7 @@ jeffc:     { name: "Jeffrey Campbell", sex: "Male",   soo: "10043196",
                "Variety Village Fall 2016" => { "50 Fly" => 70.6, "100 IM" => 124.83, "50 Back" => 45.88, "25 Free" => 16.71 }, # DQ in 50 Fly (arm)
                "Mike Conrad Winter 2017" => { "50 Fly" => 58.55, "50 Free" => 38.50, "50 Back" => 52.16, "25 Free" => 17.43, "25 Fly" => 20.84 }, # DQ in 100 IM
                "Variety Village Fall 2017" => { "25 Back" => 20.5, "25 Free" => 18.76, "50 Back" => 50.83, "50 Free" => 38.88 },
+               "Mark Tewksbury Spring 2019" => { "25 Free" => 15.64, "50 Free" => 38.12, "25 Back" => 20.84, "50 Fly" => 61.3, "25 Breast" => 28.96 }
              }
            },
 jeffv:     { name: "Jeffrey Vanier",   sex: "Male",   soo: "10061088",
@@ -156,6 +162,7 @@ jeffv:     { name: "Jeffrey Vanier",   sex: "Male",   soo: "10061088",
                # "Variety Village Fall 2016" => { "50 Free" => 55.79, "25 Back" => 55.18, "50 Back" => 122.01, "25 Free" => 36.83 }, # DQ in 50 Back (false start)
                "Variety Village Fall 2017" => { "25 Back" => 56.64, "25 Free" => 36.06, "50 Back" => 135.89, "50 Free" => 77.95 },
                "Variety Village Fall 2018" => { "25 Back" => 65.62, "25 Free" => 36.13, "50 Back" => 143.65, "50 Free" => 77.28 },
+               "Mark Tewksbury Spring 2019" => { "25 Free" => 32.47, "50 Free" => 73.01, "25 Back" => 67.09, "50 Back" => 140.25 }
              }
            },
 jessica:   { name: "Jessica Nishio",   sex: "Female", soo: "10144952",
@@ -250,6 +257,7 @@ michelle:  { name: "Michelle Lee", name_alt: "Michelle Lee (outside lane)",    s
                "Anne Ottenbrite 2017" => { "25 Free" => 47.65, "50 Free" => 111.65, "25 Back" => 53.4 },
                "Variety Village Fall 2017" => { "25 Back" => 61.06, "25 Free" => 51.1, "50 Free" => 121.19 },
                "Variety Village Fall 2018" => { "25 Back" => 83.6, "25 Free" => 49.5, "50 Free" => 122.83 },
+               "Mark Tewksbury Spring 2019" => { "25 Free" => 44.52, "50 Free" => 112.91, "25 Back" => 57.83 }
              }
            },
 pete:      { name: "Peter Flagler",    sex: "Male",   soo: "10046714",
@@ -265,6 +273,7 @@ pete:      { name: "Peter Flagler",    sex: "Male",   soo: "10046714",
                "Sarah Carman Spring 2016" => { "25 Free" => 20.46, "50 Free" => 44.97, "100 Free" => 108.6, "50 Back" => 65.52 },
                "Variety Village Fall 2016" => { "50 Free" => 45.98, "25 Back" => 27.39, "100 Free" => 105.09, "25 Free" => 19.36 },
                "Variety Village Fall 2017" => { "25 Back" => 31.01, "25 Free" => 22.05, "100 Free" => 113.38, "50 Free" => 48.16 },
+               "Mark Tewksbury Spring 2019" => { "25 Free" => 21.07, "50 Free" => 47.45, "25 Back" => 29.04, "50 Back" => 69.97, "100 Free" => 117.71 }
              }
            },
 rick:      { name: "Rick Wong", name_alt: "Rick Wong (outside lane)",        sex: "Male",   soo: "10062303",
@@ -331,6 +340,7 @@ tomas:     { name: "Tomas Carlino",    sex: "Male",   soo: "10139476",
                "Variety Village Fall 2017" => { "25 Breast" => 34.78, "25 Free" => 21.71, "50 Back" => 56.57, "100 IM" => 140.61 },
                "Anne Ottenbrite 2018" => { "25 Free" => 20.3, "50 Free" => 47.29, "25 Fly" => 22.83, "50 Back" => 52.13, "25 Breast" => 25.75 },
                "Variety Village Fall 2018" => { "25 Breast" => 27.56, "25 Free" => 20.9, "50 Back" => 55.45, "50 Fly" => 60.86 },
+               "Mark Tewksbury Spring 2019" => { "50 Fly" => 67.03, "50 Free" => 51.19, "25 Back" => 22.0, "50 Back" => 51.72, "100 IM" => 139.28, "25 Fly" => 21.41 }
              }
            },
 tori:      { name: "Victoria O'Brien",    sex: "Female",   soo: "195795",
@@ -341,6 +351,7 @@ tori:      { name: "Victoria O'Brien",    sex: "Female",   soo: "195795",
                "???" => { "25 Breast" => 36.65, "25 Free" => 35.46, "25 Back" => 51.77, "50 Free" => 75.94 },
                "Anne Ottenbrite 2018" => { "25 Free" => 32.9, "50 Free" => 78.21, "25 Back" => 45.43, "25 Breast" => 35.37 },
                "Variety Village Fall 2018" => { "25 Back" => 43.65, "25 Free" => 32.56, "50 Breast" => 79.39, "25 Breast" => 36.51 },
+               "Mark Tewksbury Spring 2019" => { "25 Free" => 33.06, "50 Free" => 79.29, "25 Back" => 44.85, "50 Breast" => 78.12, "100 Breast" => 165.12, "25 Breast" => 37.45 }
              }
            },
 vishal:    { name: "Vishal Matekar",   sex: "Male",   soo: "10053200",
