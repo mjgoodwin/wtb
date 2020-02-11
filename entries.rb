@@ -2,7 +2,7 @@
 roster = {
   amanda:     { name: "Amanda Luong", name_alt: "Amanda Luong (outside lane)",      sex: "Female", soo: "10109280",
     events: [ "25 Free", "50 Free", "25 Back" ],
-    pbs: { "25 Free" => 65, "50 Free" => 145, "25 Back" => 70, "50 Back" => 135 },
+    pbs: {},
     dob: "19/06/1996",
     results: {
       "Mike Conrad Winter 2017" => { "50 Free" => 162.68, "25 Back" => 68.69, "50 Back" => 189.51, "25 Free" => 57.15 },
@@ -16,7 +16,7 @@ roster = {
   },
   ben: { name: "Ben Caplan",  sex: "Male", soo: "10124680",
     events: [ "50 Back", "25 Free", "25 Back", "50 Free" ], # No Fly or Breast
-    pbs: {"100 IM" => 120, "50 Fly" => 50, "25 Free" => 20, "50 Back" => 50, "200 Free" => 200, "50 Breast" => 48, "25 Fly" => 23, "25 Back" => 23, "25 Breast" => 30, "100 Back" => 120 },
+    pbs: {},
     dob: "13/05/1996",
     results: {
       "Variety Village Fall 2016" => { "25 Back" => 19.61, "100 Free" => 90.8, "25 Free" => 15.97, "50 Free" => 36.56 },
@@ -30,7 +30,7 @@ roster = {
   },
   callum: { name: "Callum Denault",  sex: "Male", soo: "10045214",
     events: [ "100 Breast", "50 Breast", "200 Breast", "100 IM" ],
-    pbs: {"100 IM" => 115, "25 Breast" => 30, "50 Free" => 42, "50 Back" => 50, "100 Free" => 95, "50 Breast" => 47, "25 Fly" => 20, "25 Back" => 22, "25 Free" => 19, "100 Breast" => 105, "200 Breast" => 240, "50 Fly" => 48, "200 Free" => 223.12 },
+    pbs: {},# {"100 IM" => 115, "25 Breast" => 30, "50 Free" => 42, "50 Back" => 50, "100 Free" => 95, "50 Breast" => 47, "25 Fly" => 20, "25 Back" => 22, "25 Free" => 19, "100 Breast" => 105, "200 Breast" => 240, "50 Fly" => 48, "200 Free" => 223.12 },
     dob: "28/03/1999",
     results: {
       # "Mike Conrad Winter 2016" => { "100 IM" => 101.06, "25 Breast" => 19.95, "50 Free" => 40.81, "50 Back" => 48.06 }, # DQ in 100 IM
@@ -61,7 +61,7 @@ roster = {
   #            },
   cathy:     { name: "Cathy Lemon",      sex: "Female", soo: "10051944",
     events: [ "100 Free", "50 Back", "50 Breast", "100 IM" ],
-    pbs: { "100 Free" => 150, "50 Back" => 80, "50 Breast" => 89, "100 IM" => 169, "25 Fly" => 45, "50 Free" => 72, "25 Breast" => 43, "200 Free" => 340, "25 Free" => 33, "25 Back" => 36 },
+    pbs: {},# { "100 Free" => 150, "50 Back" => 80, "50 Breast" => 89, "100 IM" => 169, "25 Fly" => 45, "50 Free" => 72, "25 Breast" => 43, "200 Free" => 340, "25 Free" => 33, "25 Back" => 36 },
     dob: "09/03/1968",
     results: {
       # "Variety Village Fall 2014" => { "100 Free" => 170.92, "50 Back" => 85.34, "50 Breast" => 92.44, "100 IM" => 181.96 },
@@ -96,7 +96,7 @@ roster = {
   #            },
   hilda:     { name: "Hilda Wong",       sex: "Female", soo: "10062297",
     events: [ "25 Free", "50 Free", "50 Back", "25 Back" ],
-    pbs: { "50 Free" => 68, "25 Breast" => 45, "50 Back" => 88, "25 Fly" => 40 },
+    pbs: {},# { "50 Free" => 68, "25 Breast" => 45, "50 Back" => 88, "25 Fly" => 40 },
     dob: "28/01/1982",
     results: {
       # "Variety Village Fall 2014" => { "25 Free" => 32.18, "50 Free" => 71.38, "25 Back" => 38.43, "25 Breast" => 55.35 },
@@ -117,7 +117,7 @@ roster = {
   },
   james:     { name: "James Brown",      sex: "Male",   soo: "10095198",
     events: [ "25 Back", "25 Breast", "100 IM", "50 Fly" ],
-    pbs: { "50 Fly" => 70, "100 Free" => 160, "50 Back" => 76, "50 Breast" => 80, "25 Fly" => 45, "25 Free" => 30, "25 Back" => 35, "50 Free" => 55, "100 IM" => 150 },
+    pbs: {},# { "50 Fly" => 70, "100 Free" => 160, "50 Back" => 76, "50 Breast" => 80, "25 Fly" => 45, "25 Free" => 30, "25 Back" => 35, "50 Free" => 55, "100 IM" => 150 },
     dob: "02/08/1998",
     results: {
       # "Variety Village Fall 2014" => { "100 Free" => 165.12, "50 Back" => 84.19, "50 Breast" => 121.15, "25 Breast" => 67.53 }, # DQ in 50 Back and 25 Fly
@@ -139,7 +139,7 @@ roster = {
   },
   jeffc:     { name: "Jeffrey Campbell", sex: "Male",   soo: "10043196",
     events: [ "25 Back", "25 Free", "50 Free", "25 Fly" ],
-    pbs: { "100 Free" => 98, "50 Back" => 51, "25 Breast" => 26.23, "50 Fly" => 55, "25 Free" => 16, "50 Breast" => 70, "100 IM" => 140, "25 Back" => 23, "50 Free" => 35, "25 Fly" => 20 },
+    pbs: {},# { "100 Free" => 98, "50 Back" => 51, "25 Breast" => 26.23, "50 Fly" => 55, "25 Free" => 16, "50 Breast" => 70, "100 IM" => 140, "25 Back" => 23, "50 Free" => 35, "25 Fly" => 20 },
     dob: "17/05/1984",
     results: {
       # "Variety Village Fall 2014" => { "100 Free" => 103.46, "50 Back" => 49.65, "25 Breast" => 26.23, "50 Fly" => 57.97 }, # DQ in 50 Fly
@@ -157,7 +157,7 @@ roster = {
   },
   jeffv:     { name: "Jeffrey Vanier",   sex: "Male",   soo: "10061088",
     events: [ "25 Free", "50 Free", "25 Back", "50 Back" ],
-    pbs: { "25 Free" => 33, "50 Free" => 80, "25 Back" => 55 },
+    pbs: {},# { "25 Free" => 33, "50 Free" => 80, "25 Back" => 55 },
     dob: "02/08/1987",
     results: {
       # "Mike Conrad Winter 2015" => { "50 Back" => 112.38, "50 Free" => 69.53, "25 Back" => 53.31 },
@@ -173,7 +173,7 @@ roster = {
   },
   jessica:   { name: "Jessica Nishio",   sex: "Female", soo: "10144952",
     events: [ "50 Free", "25 Breast", "50 Back", "25 Fly", "25 Free", "25 Back" ],
-    pbs: { "25 Free" => 30, "25 Back" => 35, "25 Breast" => 40, "25 Fly" => 40, "50 Free" => 75, "50 Back" => 85, "50 Breast" => 100, "100 IM" => 200 },
+    pbs: {},# { "25 Free" => 30, "25 Back" => 35, "25 Breast" => 40, "25 Fly" => 40, "50 Free" => 75, "50 Back" => 85, "50 Breast" => 100 },
     dob: "18/06/2000",
     results: {
       # "Variety Village Spring 2015" => { "25 Free" => 32.36, "50 Free" => 69.95, "25 Back" => 37.87, "25 Breast" => 46.1 },
@@ -187,7 +187,7 @@ roster = {
   },
   lindsay:   { name: "Lindsay Suline",   sex: "Female", soo: "10148007",
     events: [ "25 Free", "25 Back", "50 Free", "50 Back" ],
-    pbs: { "25 Free" => 35, "50 Free" => 75, "25 Back" => 40, "25 Fly" => 40, "25 Breast" => 45, "50 Back" => 90, "50 Breast" => 130, "100 IM" => 181.3 },
+    pbs: {},# { "25 Free" => 35, "50 Free" => 75, "25 Back" => 40, "25 Fly" => 40, "25 Breast" => 45, "50 Back" => 90, "50 Breast" => 130, "100 IM" => 181.3 },
     dob: "14/04/1991",
     results: {
       # "Variety Village Fall 2014" => { "25 Free" => 40.22, "50 Free" => 84.45, "25 Back" => 33.80, "25 Breast" => 46.99 },
@@ -208,7 +208,7 @@ roster = {
   },
   marco:     { name: "Marco Fata",       sex: "Male",   soo: "10046465",
     events: [ "25 Free", "50 Free", "25 Back", "50 Back" ],
-    pbs: { "25 Free" => 32, "50 Free" => 76, "25 Back" => 42, "50 Back" => 93 },
+    pbs: {},# { "25 Free" => 32, "50 Free" => 76, "25 Back" => 42, "50 Back" => 93 },
     dob: "24/03/1995",
     results: {
       # "Variety Village Fall 2014" => { "25 Free" => 39.67, "50 Free" => 69.59, "25 Back" => 36.30, "50 Back" => 99.31 },
@@ -223,7 +223,7 @@ roster = {
   },
   marianna:  { name: "Marianna Adams",   sex: "Female", soo: "10040299",
     events: [ "25 Free", "50 Free", "25 Breast", "50 Back", "25 Back" ],
-    pbs: { "50 Free" => 70, "50 Back" => 80, "25 Breast" => 50, "50 Breast" => 110, "25 Free" => 30, "25 Back" => 39 },
+    pbs: {},# { "50 Free" => 70, "50 Back" => 80, "25 Breast" => 50, "50 Breast" => 110, "25 Free" => 30, "25 Back" => 39 },
     dob: "26/10/1977",
     results: {
       # "Variety Village Fall 2014" => { "50 Free" => 77.16, "50 Back" => 84.64, "25 Breast" => 46.7, "50 Breast" => 118.77 },
@@ -234,7 +234,7 @@ roster = {
   },
   michaelh:  { name: "Michael Hong",     sex: "Male",   soo: "10049365",
     events: [ "25 Free", "50 Free", "25 Back", "50 Back" ],
-    pbs: { "25 Free" => 38, "50 Free" => 90, "25 Back" => 56, "50 Back" => 125 },
+    pbs: {},# { "25 Free" => 38, "50 Free" => 90, "25 Back" => 56, "50 Back" => 125 },
     dob: "06/03/1991",
     results: {
       # "Variety Village Fall 2014" => { "25 Free" => 36.01, "50 Free" => 96.79, "25 Back" => 56.56, "50 Back" => 148.13 },
@@ -249,7 +249,7 @@ roster = {
   },
   michaelr:  { name: "Mike Roseros",     sex: "Male",   soo: "10057679",
     events: [ "25 Free", "50 Free", "25 Back", "50 Back" ],
-    pbs: { "25 Free" => 42, "50 Free" => 90, "25 Back" => 52, "50 Back" => 110 },
+    pbs: {},# { "25 Free" => 42, "50 Free" => 90, "25 Back" => 52, "50 Back" => 110 },
     dob: "10/10/1975",
     results: {
       # "Mike Conrad Winter 2015" => { "25 Free" => 41.87, "50 Free" => 90.54, "25 Back" => 61.78, "50 Back" => 121 },
@@ -258,7 +258,7 @@ roster = {
   },
   michelle:  { name: "Michelle Lee", name_alt: "Michelle Lee (outside lane)",    sex: "Female",   soo: "10051835",
     events: [ "25 Free", "50 Free", "25 Back" ],
-    pbs: { "50 Free" => 100, "50 Back" => 125 },
+    pbs: {},# { "50 Free" => 100, "50 Back" => 125 },
     dob: "19/09/1985",
     results: {
       "Mike Conrad Winter 2017" => { "25 Free" => 45.28, "25 Back" => 57.97 },
@@ -271,7 +271,7 @@ roster = {
   },
   noemie:    { name: "Noemie D'Aigle",      sex: "Female", soo: "215397",
     events: [ "25 Free", "50 Free", "25 Back", "50 Back" ],
-    pbs: { "25 Free" => 45, "50 Free" => 90, "25 Back" => 50, "50 Back" => 100 },
+    pbs: {},# { "25 Free" => 45, "50 Free" => 90, "25 Back" => 50, "50 Back" => 100 },
     dob: "06/04/2004",
     results: {
       "Variety Village Fall 2019" => { "25 Free" => 36.66, "50 Free" => 94.36, "25 Back" => 34.42, "50 Back" => 87.0 } # DQ in 25 Back SW6.6.1
@@ -279,7 +279,7 @@ roster = {
   },
   pete:      { name: "Peter Flagler",    sex: "Male",   soo: "10046714",
     events: [ "25 Free", "50 Free", "100 Free", "25 Back", "50 Back" ],
-    pbs: { "50 Free" => 46, "100 Free" => 105, "50 Back" => 60, "25 Fly" => 28, "25 Free" => 19, "25 Back" => 27 },
+    pbs: {},# { "50 Free" => 46, "100 Free" => 105, "50 Back" => 60, "25 Fly" => 28, "25 Free" => 19, "25 Back" => 27 },
     dob: "27/01/1996",
     results: {
       # "Variety Village Fall 2014" => { "50 Free" => 41.80, "100 Free" => 105.42, "50 Back" => 68.03, "25 Fly" => 34.09 },
@@ -295,7 +295,7 @@ roster = {
   },
   rick:      { name: "Rick Wong", name_alt: "Rick Wong (outside lane)",        sex: "Male",   soo: "10062303",
     events: [ "25 Free", "50 Free", "25 Back", "50 Back" ],
-    pbs: { "25 Free" => 65, "50 Free" => 145, "25 Back" => 62, "50 Back" => 140 },
+    pbs: {},# { "25 Free" => 65, "50 Free" => 145, "25 Back" => 62, "50 Back" => 140 },
     dob: "03/06/1971",
     results: {
       # "Mike Conrad Winter 2015" => { "25 Free" => 63.66, "50 Free" => 144.72, "25 Back" => 63.68, "50 Back" => 144.72 },
@@ -314,7 +314,7 @@ roster = {
   },
   sarah:     { name: "Sarah Bruni (outside lane)",      sex: "Female", soo: "10042779",
     events: [ "25 Free", "50 Free", "25 Back", "50 Back" ],
-    pbs: { "25 Free" => 65, "50 Free" => 145, "25 Back" => 70, "50 Back" => 135 },
+    pbs: {},# { "25 Free" => 65, "50 Free" => 145, "25 Back" => 70, "50 Back" => 135 },
     dob: "10/04/1989",
     results: {
       # "Variety Village Spring 2015" => { "25 Free" => 33.62, "50 Free" => 86.28, "25 Back" => 63.46},
@@ -342,7 +342,7 @@ roster = {
   #            },
   tomas:     { name: "Tomas Carlino",    sex: "Male",   soo: "10139476",
     events: [ "100 IM", "25 Fly", "25 Back", "50 Back" ],
-    pbs: { "50 Free" => 58, "25 Back" => 29, "25 Breast" => 39, "25 Fly" => 35, "50 Back" => 65, "25 Free" => 22, "50 Fly" => 70, "100 IM" => 150 },
+    pbs: {},# { "50 Free" => 58, "25 Back" => 29, "25 Breast" => 39, "25 Fly" => 35, "50 Back" => 65, "25 Free" => 22, "50 Fly" => 70, "100 IM" => 150 },
     dob: "11/10/1996",
     results: {
       # "Variety Village Fall 2014" => { "50 Free" => 56.84, "25 Back" => 30.19, "25 Breast" => 33.93, "25 Fly" => 45.88 },
@@ -364,7 +364,7 @@ roster = {
   },
   tori:      { name: "Victoria O'Brien",    sex: "Female",   soo: "195795",
     events: [ "50 Breast", "25 Free", "25 Breast", "25 Back" ],
-    pbs: { "50 Free" => 58, "50 Breast" => 80, "25 Back" => 29, "25 Breast" => 39, "25 Fly" => 35, "50 Back" => 65, "25 Free" => 22, "50 Fly" => 70, "100 Breast" => 170 },
+    pbs: {},# { "50 Free" => 58, "50 Breast" => 80, "25 Back" => 29, "25 Breast" => 39, "25 Fly" => 35, "50 Back" => 65, "25 Free" => 22, "50 Fly" => 70, "100 Breast" => 170 },
     dob: "14/08/1984",
     results: {
       "???" => { "25 Breast" => 36.65, "25 Free" => 35.46, "25 Back" => 51.77, "50 Free" => 75.94 },
@@ -376,7 +376,7 @@ roster = {
   },
   vishal:    { name: "Vishal Matekar",   sex: "Male",   soo: "10053200",
     events: [ "25 Free", "50 Free", "25 Back", "50 Back" ],
-    pbs: { "25 Free" => 44, "50 Free" => 92, "25 Back" => 56, "50 Back" => 120 },
+    pbs: {},# { "25 Free" => 44, "50 Free" => 92, "25 Back" => 56, "50 Back" => 120 },
     dob: "15/01/1984",
     results: {
       # "Variety Village Fall 2014" => { "25 Free" => 45.94, "50 Free" => 85.53, "25 Back" => 67.88, "50 Back" => 128.68 },
@@ -412,6 +412,7 @@ meets = {
   },
   "Mike Conrad Winter 2016" => {
     events: [ "200 Free", "25 Free", "100 IM", "100 Breast", "25 Fly", "25 Breast", "50 Fly", "25 Back", "100 Back", "50 Breast", "50 Free", "100 Free", "50 Back" ],
+    swimmers: [ :callum, :cassandra, :cathy, :dj, :duncan, :gord, :hilda, :james, :jeffc, :jeffv, :jessica, :lindsay, :marco, :marianna, :michaelh, :michaelr, :pete, :rick, :sarah, :steven, :tasia, :tomas, :vishal ]
     swimmers: [ :callum, :cassandra, :cathy, :dj, :duncan, :gord, :hilda, :james, :jeffc, :jeffv, :jessica, :lindsay, :marco, :marianna, :michaelh, :michaelr, :pete, :rick, :sarah, :steven, :tasia, :tomas, :vishal ]
   },
   "Sarah Carman Spring 2016" => {
@@ -462,6 +463,10 @@ meets = {
     events: [ "200 Free", "100 IM", "50 Free", "100 Back", "50 Fly", "25 Breast", "25 Back", "100 Breast", "50 Back", "50 Breast", "100 Free", "25 Fly", "25 Free" ],
     swimmers: [:amanda, :ben, :callum, :cathy, :hilda, :james, :jeffc, :jeffv, :lindsay, :marco, :michaelh, :michelle, :noemie, :rick, :tomas, :tori]
   },
+  "Mike Conrad Winter 2020" => {
+    events: [ "25 Free", "50 Free", "100 Free", "200 Free", "400 Free", "25 Back", "50 Back", "100 Back", "200 Back", "25 Breast", "50 Breast", "100 Breast", "25 Fly", "50 Fly", "100 Fly", "100 IM" ],
+    swimmers: [:amanda, :ben, :callum, :cathy, :hilda, :james, :jeffc, :jeffv, :jessica, :lindsay, :marco, :marianna, :michaelh, :michaelr, :michelle, :noemie, :pete, :rick, :sarah, :tomas, :tori, :vishal]
+  },
 }
 ALL = [:amanda, :ben, :callum, :cathy, :hilda, :james, :jeffc, :jeffv, :jessica, :lindsay, :marco, :marianna, :michaelh, :michaelr, :michelle, :noemie, :pete, :rick, :sarah, :tomas, :tori, :vishal]
 
@@ -486,46 +491,21 @@ require 'date'
 #   end
 # end
 
-MEET = "Variety Village Fall 2019"
+MEET = "Mike Conrad Winter 2020"
 meet_events = meets[MEET][:events]
 meet_swimmers = meets[MEET][:swimmers]
 
 # puts "Name, Sex, SOO Number, DOB, #{meet_events.join(", ")}"
-puts "Michael Goodwin; mike.goodwin@gmail.com; 647.339.5827"
+# puts "Michael Goodwin; mike.goodwin@gmail.com; 647.339.5827"
 meet_swimmers.each do |swimmer|
   swimmer_hash = roster[swimmer]
 
-  puts "*"*20
-  puts "West Toronto Barracudas"
-  puts swimmer_hash[:name]
-  puts Date.parse(swimmer_hash[:dob]).strftime("%m/%d/%Y")
-  puts swimmer_hash[:soo]
-  swimmer_hash[:events].each do |event|
-    if swimmer_hash[:events].include? event
-      pb = nil
-      swimmer_hash[:results].keys.each do |meet|
-        meet_result = swimmer_hash[:results][meet][event]
-        pb = swimmer_hash[:results][meet][event] if meet_result && (pb.nil? || meet_result < pb)
-      end
-      t = pb || swimmer_hash[:pbs][event]
-      time = Time.at(t).utc.strftime("%-M:%S.%2N")
-    else
-      time = ""
-    end
-    # puts "#{event} - #{time}"
-    # puts "#{event}"
-    # puts "#{time}"
-    # t = swimmer_hash[:pbs][event]
-    # time = Time.at(t).utc.strftime("%-M:%S.%2N")
-    puts "#{event} - #{time}"
-  end
-
-  # row_string = ""
-  # row_string << (swimmer_hash[:name_alt] || swimmer_hash[:name]) << ", "#.sub(" ", ",") << ", "
-  # row_string << swimmer_hash[:sex][0] << ", "
-  # row_string << swimmer_hash[:soo] << ", "
-  # row_string << Date.parse(swimmer_hash[:dob]).strftime("%d/%m/%Y") << ", "
-  # meet_events.each do |event|
+  # puts "*"*20
+  # puts "West Toronto Barracudas"
+  # puts swimmer_hash[:name]
+  # puts Date.parse(swimmer_hash[:dob]).strftime("%m/%d/%Y")
+  # puts swimmer_hash[:soo]
+  # swimmer_hash[:events].each do |event|
   #   if swimmer_hash[:events].include? event
   #     pb = nil
   #     swimmer_hash[:results].keys.each do |meet|
@@ -537,9 +517,34 @@ meet_swimmers.each do |swimmer|
   #   else
   #     time = ""
   #   end
-  #   row_string << time.to_s << ", "
+  #   # puts "#{event} - #{time}"
+  #   # puts "#{event}"
+  #   # puts "#{time}"
+  #   # t = swimmer_hash[:pbs][event]
+  #   # time = Time.at(t).utc.strftime("%-M:%S.%2N")
+  #   puts "#{event} - #{time}"
   # end
-  # puts row_string
+  row_string = ""
+  row_string << swimmer_hash[:name].split(" ")[0] << ", "#.sub(" ", ",") << ", "
+  row_string << swimmer_hash[:name].split(" ")[1] << ", "#.sub(" ", ",") << ", "
+  row_string << Date.parse(swimmer_hash[:dob]).strftime("%m-%d-%y") << ", "
+  row_string << swimmer_hash[:sex][0] << ", "
+  row_string << swimmer_hash[:soo] << ", "
+  meet_events.each do |event|
+    # if swimmer_hash[:events].include? event
+      pb = nil
+      swimmer_hash[:results].keys.each do |meet|
+        meet_result = swimmer_hash[:results][meet][event]
+        pb = swimmer_hash[:results][meet][event] if meet_result && (pb.nil? || meet_result < pb)
+      end
+      t = pb || swimmer_hash[:pbs][event]
+      time = Time.at(t).utc.strftime("%-M:%S.%2N") rescue ""
+    # else
+    #   time = ""
+    # end
+    row_string << time.to_s << ", "
+  end
+  puts row_string
 
   # ALL_EVENTS = [ "25 Free", "50 Free", "100 Free", "200 Free", "25 Back", "50 Back", "100 Back", "25 Breast", "50 Breast", "100 Breast", "25 Fly", "50 Fly", "100 IM" ]
   # ### History Report ***
